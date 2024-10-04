@@ -39,6 +39,7 @@ console.log(b);        // ReferenceError: Cannot access 'b' before initializatio
 console.log(c);        // ReferenceError: Cannot access 'c' before initialization (TDZ)
 console.log(hello());  // "Hello, world!" (function declarations are fully hoisted)
 console.log(funcExp);   // undefined (function expressions are hoisted as variables)
+console.log(funcExp()); //TypeError: funcExp is not a function
 console.log(sum());    // ReferenceError: Cannot access 'sum' before initialization
 console.log(arrow())  // ReferenceError: Cannot access 'arrFun' before initialization
 
