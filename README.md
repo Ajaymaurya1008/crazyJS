@@ -14,7 +14,7 @@ var add = function(a,b){
 }
 ```
 
-### Arrow Expression
+### Arrow Function
 ```
 const add = function = (a,b) => {
   return a + b
